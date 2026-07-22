@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "image": "/ProductsImages/Soundpeats-Q3-Pro-Black-300x300.webp",
+    "alt": "Soundpeats-Q3-Pro-Black-300x300",
+    "title": "Soundpeats Q3 Pro",
+    "spec": "ANC Wireless Earbuds",
+    "price": "3,999"
+  },
+  {
+    "id": 2,
+    "image": "/ProductsImages/Samsung-Galaxy-Buds-4-Pro-Earbuds-Black-300x300.webp",
+    "alt": "Samsung-Galaxy-Buds-4-Pro-Earbuds-Black-300x300",
+    "title": "Samsung Galaxy Buds",
+    "spec": "4 Pro 2026 All True...",
+    "price": "54,999"
+  },
+   {
+    "id": 3,
+    "image": "/ProductsImages/Aurafit-Nexa-3-3-600x600.webp",
+    "alt": "Aurafit-Nexa-3-3-600x600",
+    "title": "Aurafit Nexa 3 AM32",
+    "spec": "Amoled Smartwatch...",
+    "price": "11,799"
+  },
+  {
+    "id": 4,
+    "image": "/ProductsImages/Apple-iPhone-17-Pro-Max-Blue-300x300.webp",
+    "alt": "Apple-iPhone-17-Pro-Max-Blue-300x300",
+    "title": "Apple iPhone 17 Pro",
+    "spec": "Max PTA Approved",
+    "price": "506,999"
+  },
+   {
+    "id": 5,
+    "image": "/ProductsImages/Samsung-Watch-8-Classic-46mm-Black-300x300.webp",
+    "alt": "Samsung-Watch-8-Classic-46mm-Black-300x300",
+    "title": "Samsung Galaxy",
+    "spec": "Watch 8 Classic 46mm",
+    "price": "75,999"
+  }
+]
+
+

@@ -6,7 +6,7 @@ const Navbar = () => {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="w-full bg-amber-500">
+    <div className="fixed top-0 left-0 z-50 h-16 w-full bg-deep-foret-blue ">
       <ul className="flex justify-between px-6 py-4">
         <li className="text-white font-bold uppercase">
           <Link href={"#"}>Quick Shop</Link>

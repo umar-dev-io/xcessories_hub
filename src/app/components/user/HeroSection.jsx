@@ -1,5 +1,6 @@
 import { BsBoxSeam } from "react-icons/bs";
-
+import { TbMessageUser } from "react-icons/tb";
+import { GiReturnArrow,GiTakeMyMoney } from "react-icons/gi";
 const HeroSection = () => {
   const HeroSectionList = [
     {
@@ -10,30 +11,30 @@ const HeroSection = () => {
     },
     {
       id: 2,
-      icon: <BsBoxSeam />,
+      icon: <TbMessageUser />,
       title: "Positive Feedback",
       subTitle: "99% Customer Satisfaction Rate",
     },
     {
       id: 3,
-      icon: <BsBoxSeam />,
+      icon: <GiReturnArrow />,
       title: "Easy Return & Refunds",
       subTitle: "T&Cs Apply",
     },
     {
       id: 4,
-      icon: <BsBoxSeam />,
+      icon: <GiTakeMyMoney />,
       title: "Cost Saving",
       subTitle: "Excellent Price & Sales",
     },
   ];
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 justify-center items-center text-center px-6 mt-10">
+    <div className="grid grid-cols-[repeat(auto-fit,minmax(260px,280px))] justify-center gap-6 px-6 mt-10">
       {HeroSectionList.map(({ id, icon, title, subTitle }) => (
         <div
           key={id}
-          className="w-[300] shadow flex flex-col gap-2 justify-center items-center text-center px-4 py-8 rounded-2xl transform duration-300 ease-in-out hover:scale-105 cursor-pointer"
+          className=" shadow flex flex-col gap-2 justify-center items-center text-center px-4 py-8 rounded-2xl transition duration-300 ease-in-out hover:scale-105 cursor-pointer"
         >
           <p className="text-deep-foret-blue text-4xl">{icon}</p>
           <h1 className="font-bold text-xl">{title}</h1>
