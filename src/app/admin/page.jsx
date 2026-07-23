@@ -4,7 +4,6 @@ const AdminLandingPage = () => {
   <>
   <div><ProductBar/></div>  
   </>
-
 );
 };
 
